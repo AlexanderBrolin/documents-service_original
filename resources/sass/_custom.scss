@@ -1,0 +1,88 @@
+.toast {
+    flex-basis: unset !important;
+}
+.cursor {
+    &-default {
+        cursor: default;
+    }
+    &-pointer {
+        cursor: pointer;
+    }
+}
+
+.is {
+    &-256x256 {
+        width: 256px;
+        height: 256px;
+    }
+}
+
+.image-256x256 {
+    max-width: 256px;
+    max-height: 256px;
+}
+
+nav.steps > ul.step-items > li.step-item > a.step-link:hover {
+    text-decoration: none;
+}
+
+.confidence-badge {
+    padding: 4px 9px;
+    border-radius: 18px;
+    color: #fff;
+}
+.confidence {
+    &-low {
+        background: gray;
+    }
+    &-middle {
+        background: #02c5e0;
+    }
+    &-high {
+        background: #2ac178;
+    }
+}
+
+.dropzone {
+    border: 8px dashed #aaa;
+    box-sizing: border-box;
+    border-radius: 156px;
+    height: 264px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    color: #aaa;
+    margin-bottom: 24px;
+    position: relative;
+    transition: all .5s ease;
+    user-select: none;
+    &:hover {
+        border: 8px dashed #000;
+        color: #000;
+        transition: all .5s ease;
+    }
+    &-active {
+        border: 8px dashed #000;
+        color: #000;
+    }
+    &-title {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 42px;
+        margin-bottom: 12px;
+    }
+    &-subtitle {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
+
+.file-preview {
+    background: lightblue;
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 40px;
+}
